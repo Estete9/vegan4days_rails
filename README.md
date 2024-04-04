@@ -32,18 +32,8 @@
 <!-- ! PROJECT DESCRIPTION -->
 
 # 📖 Vegan4Days | Vegan Recipe App <a name="about-project"></a>
-**Vegan4Days** is a car booking application developed as part of the Microverse Full-Stack Web Development Program’s capstone project. it provides a seamless and user-friendly platform for users to view and reserve cars for rides. The application is built with React and communicates with a Rails API backend named [BookCar-API](https://github.com/fmanimashaun/book-car-api). This application demonstrates proficiency in full-stack web development, including React, Redux, Tailwind CSS, React-Router, and Rails API development. It showcases the ability to build a robust frontend that communicates effectively with a backend service, and manage application state using modern tools and libraries.
+**Vegan4Days** This Ruby on Rails application provides a platform for searching, saving, and potentially creating delicious vegan recipes! Leverage your existing ingredients to find inspiration or keep track of your favorite plant-based dishes. Built with: Ruby on Rails and [Edamam API](https://developer.edamam.com/edamam-recipe-api)
 
-- [BookCar (Frontend) Kanban Board](https://github.com/users/fmanimashaun/projects/16)
-- [BookCar Api (Backend) Kanban Board](https://github.com/users/fmanimashaun/projects/16/views/1)
-
-**Team Members**
-
-- [Anwar Hussaini](https://github.com/M-Anwar-Hussaini)
-- [Esteban Palacios](https://github.com/Estete9)
-- [Timothy Njoroge](https://github.com/simplegoose)
-- [Tomas Esquivel](https://github.com/tomasesquivelgc)
-- [Animashaun Fisayo Micahel](https://github.com/fmanimashaun)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,55 +42,65 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+<details> <summary>Programming Language</summary> <ul> <li>Ruby 3.2.2</li> </ul> </details>
 
-- [React](https://reactjs.org/)
-- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
-- [React Redux](https://react-redux.js.org/)
-- [Redux-toolkit](https://redux-toolkit.js.org/)
-- [Axios](https://axios-http.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [PropTypes](https://www.npmjs.com/package/prop-types)
-- [Tailwindcss](https://tailwindcss.com/)
+<details> <summary>Web Application Framework</summary> <ul> <li>Rails 7.1.2</li> </ul> </details>
 
-<!-- ! BACKEND INTEGRATION -->
+<details> <summary>Database</summary> <ul> <li>PostgreSQL (pg gem)</li> </ul> </details>
 
-# 🖥️ Backend Integration <a name="backend-integration"></a>
+<details> <summary>Web Server</summary> <ul> <li>Puma</li> </ul> </details>
 
-This project relies on a backend service to fetch and handle data. To ensure the project functions correctly, it's crucial to have a working backend. If you don't have a backend set up yet, kindly follow the instruction on [Book-car-api](https://github.com/fmanimashaun/book-car-api) repo for how to setup local backend for to support the frontend.
+<details> <summary>Performance Optimization</summary> <ul> <li>Bootsnap</li> </ul> </details>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<details> <summary>Testing</summary> <ul> <li>Debug</li> <li>Factory Bot (factory_bot_rails gem)</li> <li>RSpec (rspec-rails gem)</li> <li>Capybara</li> <li>Selenium Webdriver</li> </ul> </details>
+
+<details> <summary>Code Quality</summary> <ul> <li>Rubocop</li> </ul> </details>
+
+<details> <summary>Development Tools</summary> <ul> <li>Web Console (web-console gem)</li> </ul> </details>
+
+<details> <summary>Authentication</summary> <ul> <li>Devise (devise gem)</li> <li>Devise-jwt (devise-jwt gem)</li> </ul> </details>
+
+<details> <summary>Authorization</summary> <ul> <li>CanCanCan (cancancan gem)</li> </ul> </details>
 
 
 <!-- ! Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Views/Components:
-  - **Car Listing:** Grid/list display of available cars.
-  - **Car Details:** Showcase car information, booking potential.
-  - **Reservation Form:** User inputs booking details (dates, user autofill).
-  - **My Reservations:** Displays a user's reservation history.
-  - **Admin Forms:** (Add/Delete Cars), protected and visible only to authorized users.
-  - **Navigation:** Clear links between areas of the app.
-- **Routing:** React Router for seamless navigation between views.
-- **State Management:**
-  - **Redux-toolki:** Centralized data store.
-  - **Actions/Reducers:** Fetch car listings, reservation management, user/authentication state.
-- **API Interaction:** Fetch calls to backend, error handling
-- **Input Validation:** User-friendly forms with data integrity checks.
+**Recipe Discovery and Browsing:**
+
+- **Search Functionality:** Search recipes by keyword or ingredient.
+- **Browse by Category:** Explore recipes categorized by type (main course, dessert, appetizer, etc.).
+- **Detailed Recipe Views:** Each recipe displays a link to the original website where you can find the complete recipe instructions, ingredient list, preparation time, and serving suggestions.
+- **High-Quality Images:** Enhance user experience with visually appealing recipe photos.
+
+**User Management:**
+
+- **User Accounts:** Allow users to create accounts for saving favorite recipes.
+- **Saved Recipes:** Enable users to save their favorite recipes for easy access (if using user accounts).
+
+**On the Horizon:**
+
+- **Nutritional Information:** Display estimated calorie and nutrient information for recipes.
+- **Advanced Search:** Filter recipes by cooking time, difficulty level, or specific ingredients.
+
+**Technical Features:**
+
+- Built with Ruby on Rails framework for efficient development and scalability.
+- Clean and well-structured codebase for maintainability.
+- Responsive design for optimal viewing on all devices (desktop, tablet, mobile).
+- Secure user authentication and authorization (if using user accounts).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ! LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-- [Live Demo Link](https://fmanimashaun.github.io/book-car)
+<!-- - [Live Demo Link](https://fmanimashaun.github.io/book-car)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- ! GETTING STARTED -->
@@ -131,22 +131,26 @@ Example commands:
 Install this project's dependencies with:
 
 ```bash
-  npm install
+  bundle install
 ```
 
 ### Usage
 
-To run the project, first, make sure you have these files in the project's root directory
+To run the project, first, make sure to create and migrate your database with the following command:
 
-`.env` with this code `REACT_APP_BASE_URL=http://localhost:4000`
+```bash
+  rails db:create
+  rails db:migrate
+  rails db:migrate RAILS_ENV=test (to setup rspec testing database)
+```
 
 Then execute the following command:
 
 ```bash
- npm run start
+ rails s
 ```
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -154,16 +158,10 @@ You may also see any lint errors in the console.
 
 ### Run Linters
 
-#### ESLint
+#### Rubocop
 
 ```bash
-  npm run eslinter
-```
-
-#### Stylelint
-
-```bash
-  npm run stylelinter
+ rubocop -A (to fix ruby linter errors)
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,26 +170,6 @@ You may also see any lint errors in the console.
 <!-- ! AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Fisayo Michael Animashaun**
-
-- GitHub: [@fmanimashaun](https://github.com/fmanimashaun)
-- Twitter: [@fmanimashaun](https://twitter.com/fmanimashaun)
-- LinkedIn: [Fisayo Michael Animashaun ](https://linkedin.com/in/fmanimashaun)
-
-👤 **Tomas Matias Esquivel**
-- GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
-- Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
-- LinkedIn: [Tomas Esquivel](https://www.linkedin.com/in/tomás-esquivel-b2160568/)
-
-👤 **Timothy Njoroge**
-- GitHub: [@simplegoose](https://github.com/simplegoose)
-- LinkedIn: [@Timothy Njoroge](https://linkedin.com/in/timothy-njoroge-mwangi)
-  
-👤 *Anwar Hussaini*
-
-- GitHub: [Anwar Hussaini](https://github.com/M-Anwar-Hussaini)
-- LinkedIn: [Anwar Hussaini](https://www.linkedin.com/in/anwar-hussaini/)
 
 👤 **Esteban Palacios**
 
@@ -205,7 +183,9 @@ You may also see any lint errors in the console.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Dark mode.**
+- [ ]  **Dark mode.**
+- [ ]  **Filter by Cuisine.** 
+- [ ]  **Dietary Preferences.** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,7 +196,7 @@ You may also see any lint errors in the console.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/fmanimashaun/book-car/issues).
+Feel free to check the [issues page](https://github.com/Estete9/vegan4days_rails/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,13 +212,11 @@ Give a ⭐ if you liked this project!
 
 <!-- ! ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Behance and Murat Korkmaz for the [original design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
-- [Microverse](https://www.microverse.org/) for providing the opportunity to learn in a collaborative environment.
-- We the team will like to thank one another for the contribution and dedication for seeing the project to the end
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- ! LICENSE -->
