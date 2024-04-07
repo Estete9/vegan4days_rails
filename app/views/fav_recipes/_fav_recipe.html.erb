@@ -1,0 +1,27 @@
+<div id="<%= dom_id fav_recipe %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= fav_recipe.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Uri:</strong>
+    <%= fav_recipe.uri %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Thumbnail:</strong>
+    <%= fav_recipe.thumbnail %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">User:</strong>
+    <%= fav_recipe.user_id %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this fav recipe", fav_recipe, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this fav recipe", edit_fav_recipe_path(fav_recipe), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>

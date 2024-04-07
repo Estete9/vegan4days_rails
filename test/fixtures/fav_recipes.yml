@@ -4,8 +4,10 @@ one:
   name: MyString
   uri: MyString
   thumbnail: MyString
+  user: one
 
 two:
   name: MyString
   uri: MyString
   thumbnail: MyString
+  user: two
