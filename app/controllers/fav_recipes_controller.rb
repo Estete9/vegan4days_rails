@@ -3,7 +3,7 @@ class FavRecipesController < ApplicationController
 
   # GET /fav_recipes or /fav_recipes.json
   def index
-    @fav_recipes = FavRecipe.all
+    @fav_recipes = current_user.fav_recipes.all
   end
 
   # GET /fav_recipes/1 or /fav_recipes/1.json
